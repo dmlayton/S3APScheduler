@@ -3,7 +3,7 @@ from apscheduler.scheduler import Scheduler
 from apscheduler.jobstores.shelve_store import ShelveJobStore
 from shove import Shove
 import logging
-SHOVE_BUCKET = 'mt-analytics-jobstore'
+SHOVE_BUCKET = 'my-bucket'
 
 class ShoveJobStore(ShelveJobStore):
 
